@@ -24,13 +24,12 @@ export default function Landing() {
 
 
   return (
-
-    <div className='bv'>
-
+    <div>
       <video autoPlay loop muted  poster={require('../Asset/images/v.jpg')}>
         <source src={require('../Asset/images/v.mp4')} type="video/mp4"/>
         Your browser does not support the video tag.
       </video>
+      <div className='bv'></div>
       <Grid container spacing={2}>
         <Grid item xs={12}>
             <Paper className='center landing' style={{marginTop:'30vh',zIndex:'200'}} >

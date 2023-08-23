@@ -27,7 +27,7 @@ function App() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: '#0000ff',
+        main: '#008000',
       },
     },
     typography: {
@@ -111,7 +111,7 @@ function App() {
   const [_state, set_State] = useState(initialState)
   const [backAction, setBackAction] = useState({})
   const[base_url, setbase_url]=useState(CONSTANT.domainApi)
-  const [nav, setNav]= useState({});
+  const [nav, setNav]= useState({id:0});
   const [resetCode,setResetCode]=useState("")
 
   const [loans,setLoans]=useState({})
