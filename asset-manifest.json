@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Makolaa/static/css/main.1f768dae.css",
-    "main.js": "/Makolaa/static/js/main.41df806a.js",
+    "main.css": "/Makolaa/static/css/main.62b22610.css",
+    "main.js": "/Makolaa/static/js/main.d591ea9d.js",
     "static/media/v.mp4": "/Makolaa/static/media/v.af5f1a799c77bc453216.mp4",
     "static/media/loginImage.png": "/Makolaa/static/media/loginImage.2169f8f835743e3311ae.png",
     "static/media/v.jpg": "/Makolaa/static/media/v.6e496129c1172ef935cc.jpg",
@@ -16,11 +16,11 @@
     "static/media/email.svg": "/Makolaa/static/media/email.b7111c29664266732bf15d442b73aab7.svg",
     "static/media/logout.svg": "/Makolaa/static/media/logout.d0ce10faaa06dddfc4ab.svg",
     "static/media/Log-out.svg": "/Makolaa/static/media/Log-out.f6531b5618a3ec1ed90d09b69ee309f0.svg",
-    "main.1f768dae.css.map": "/Makolaa/static/css/main.1f768dae.css.map",
-    "main.41df806a.js.map": "/Makolaa/static/js/main.41df806a.js.map"
+    "main.62b22610.css.map": "/Makolaa/static/css/main.62b22610.css.map",
+    "main.d591ea9d.js.map": "/Makolaa/static/js/main.d591ea9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f768dae.css",
-    "static/js/main.41df806a.js"
+    "static/css/main.62b22610.css",
+    "static/js/main.d591ea9d.js"
   ]
 }
