@@ -28,7 +28,7 @@ export default function Landing() {
             <Paper className='center landing' style={{marginTop:'30vh',zIndex:'200'}} >
               <div>
                 <img src={require('../Asset/images/makolaa_logo.png')} style={{width:'50%',margin:'auto',height:'inherit'}} className="center block" />
-                <div className='space-top xl'>
+                <div className='space-top' style={{fontSize:"35px"}}>
                   Get Ready. We're Launching Soon!
                 </div>
                 <div className='space-bottom xl space-top2'>
@@ -50,6 +50,7 @@ export default function Landing() {
             </Paper>
         </Grid>
       </Grid>
+
     </div>
 
   );
