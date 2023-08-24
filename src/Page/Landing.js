@@ -2,14 +2,6 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Context } from '../Util/Context';
 import { CONSTANT } from '../Util/Constant';
 import { useForm } from "react-hook-form";
-import toastr from "toastr"
-import Privacy from '../Util/Privacy'
-import {
-  useLocation,
-} from "react-router-dom";
-import { CSSTransition } from "react-transition-group";
-import ReactModal from 'react-modal'
-import { useMediaQuery } from 'react-responsive'
 import { Button, Grid, InputAdornment, Paper, TextField } from '@mui/material';
 
 export default function Landing() {
@@ -21,13 +13,14 @@ export default function Landing() {
   useEffect(() => {
     dispatch({ type: CONSTANT.navigate, payload: 0 })
   }, []);
-
-
+  
+  
   return (
     <div>
       <video autoPlay loop muted  poster={require('../Asset/images/v.jpg')}>
         <source src={require('../Asset/images/v.mp4')} type="video/mp4"/>
         Your browser does not support the video tag.
+        
       </video>
       <div className='bv'></div>
       <Grid container spacing={2}>
@@ -54,9 +47,6 @@ export default function Landing() {
                   style={{marginTop:'2px'}} className='space-left' variant='contained'>Subscribe</Button>
                 </form>
               </div>
-             
-             
-             
             </Paper>
         </Grid>
       </Grid>

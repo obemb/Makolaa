@@ -10,7 +10,6 @@ import Modal from "../Component/Modal";
 import CustomTextField from '../Component/CustomTextfield';
 import * as moment from 'moment';
 import DatePicker from "react-datepicker";
-import NumberFormatCustom from '../Component/NumberFormatCustom';
 import Popup from '../Component/Popup';
 import { useNavigate} from "react-router-dom";
 
