@@ -50,7 +50,6 @@ export default function Landing() {
             </Paper>
         </Grid>
       </Grid>
-
     </div>
 
   );
